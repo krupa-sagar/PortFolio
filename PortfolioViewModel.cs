@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Portfolio.Models;
 
 public class SocialLinks
@@ -20,10 +22,21 @@ public class AboutModel
     public string AvatarInitials { get; set; } = "AJ";
 
     // Needed by GetAbout() and Index.cshtml
-    public string Summary { get; set; } = "";
-    public string? AvatarUrl { get; set; }
-    public string? ResumeUrl { get; set; }
-    public SocialLinks Social { get; set; } = new();
+    public string Summary
+    {
+        get => string.IsNullOrWhiteSpace(_summary) ? Bio : _summary;
+        set => _summary = value;
+    }
+    public string? AvatarUrl { get; set; } = "https://ui-avatars.com/api/?name=Alex+Johnson&size=200&background=0d6efd&color=fff";
+    public string? ResumeUrl { get; set; } = "/files/resume.pdf";
+    public SocialLinks Social { get; set; } = new()
+    {
+        GitHub = "https://github.com/alexjohnson",
+        LinkedIn = "https://linkedin.com/in/alexjohnson",
+        Twitter = "https://twitter.com/"
+    };
+
+    private string _summary = "";
 }
 
 public class ProjectModel
@@ -56,13 +69,22 @@ public class SkillItem
 
 public class ContactModel
 {
+    [Required]
     public string Name { get; set; } = "";
+
+    [Required]
+    [EmailAddress]
     public string Email { get; set; } = "";
+
+    [Required]
+    public string Subject { get; set; } = "";
+
+    [Required]
     public string Message { get; set; } = "";
 
     // Needed by Index.cshtml and PortfolioDataService
-    public string? Phone { get; set; }
-    public string? Location { get; set; }
+    public string? Phone { get; set; } = "+1 (555) 123-4567";
+    public string? Location { get; set; } = "San Francisco, CA";
 }
 
 public class PortfolioViewModel
