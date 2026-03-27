@@ -1,0 +1,14 @@
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.AssemblyInfoInputs.cache
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.AssemblyInfo.cs
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cache
+C:\Users\sagar\files\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cs
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.AssemblyInfoInputs.cache
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.AssemblyInfo.cs
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cache
+C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cs
