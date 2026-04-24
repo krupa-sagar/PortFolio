@@ -12,14 +12,14 @@ public class SocialLinks
 
 public class AboutModel
 {
-    public string Name { get; set; } = "Alex Johnson";
-    public string Title { get; set; } = "Full-Stack Developer";
-    public string Bio { get; set; } = "Passionate developer with 5+ years of experience crafting elegant solutions to complex problems. I love building products that make a difference.";
-    public string Location { get; set; } = "San Francisco, CA";
-    public string Email { get; set; } = "alex@example.com";
-    public string GitHub { get; set; } = "https://github.com/alexjohnson";
-    public string LinkedIn { get; set; } = "https://linkedin.com/in/alexjohnson";
-    public string AvatarInitials { get; set; } = "AJ";
+    public string Name { get; set; } = "Krupa Sagar";
+    public string Title { get; set; } = "Application Developer";
+    public string Bio { get; set; } = "I am a .NET developer with hands-on experience in building desktop applications using WPF and the MVVM pattern. I have worked on developing structured and responsive UI, handling large-scale views, and implementing efficient application logic.Alongside desktop development, I have started exploring web technologies and built an ASP.NET Core MVC application using Razor views. This has helped me understand server-side rendering, routing, and web application architecture.I am open to opportunities in both WPF and .NET web development, and I am focused on strengthening my skills to build scalable and maintainable applications across platforms.";
+    public string Location { get; set; } = "Bengaluru, KA";
+    public string Email { get; set; } = "sagaras1063@gmail.com";
+    public string GitHub { get; set; } = "https://github.com/krupa-sagar";
+    public string LinkedIn { get; set; } = "linkedin.com/in/krupa-sagar-0105a21b3";
+    public string AvatarInitials { get; set; } = "KS";
 
     // Needed by GetAbout() and Index.cshtml
     public string Summary
@@ -27,12 +27,14 @@ public class AboutModel
         get => string.IsNullOrWhiteSpace(_summary) ? Bio : _summary;
         set => _summary = value;
     }
+    public string? Shortsummary{ get; set; }
+
     public string? AvatarUrl { get; set; } = "https://ui-avatars.com/api/?name=Alex+Johnson&size=200&background=0d6efd&color=fff";
     public string? ResumeUrl { get; set; } = "/files/resume.pdf";
     public SocialLinks Social { get; set; } = new()
     {
-        GitHub = "https://github.com/alexjohnson",
-        LinkedIn = "https://linkedin.com/in/alexjohnson",
+        GitHub = "https://github.com/krupa-sagar",
+        LinkedIn = "https://www.linkedin.com/in/krupa-sagar-0105a21b3/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaWUNXF4%2FTI6bHSjjw5ELWg%3D%3D",
         Twitter = "https://twitter.com/"
     };
 
@@ -83,8 +85,8 @@ public class ContactModel
     public string Message { get; set; } = "";
 
     // Needed by Index.cshtml and PortfolioDataService
-    public string? Phone { get; set; } = "+1 (555) 123-4567";
-    public string? Location { get; set; } = "San Francisco, CA";
+    public string? Phone { get; set; } = "+91 8217660778";
+    public string? Location { get; set; } = "Bengaluru, KA";
 }
 
 public class PortfolioViewModel

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gFVcvo/i7YoHYfG4c3U7zabG15S4Kxip7n6Plm7Ce88=",
+  "Hash": "ze1GOGJgHrVgXv90Kfv8BNCtwQg3OFm16Mui474bUV4=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3aikapbsdk",
-      "Integrity": "i5cq3Qw3FL8MZOvsE/WAboQVSAs2s+Jrjbr7o3yUd/k=",
+      "Fingerprint": "ep18zqc7z7",
+      "Integrity": "ouXiNM0PgxxYpa/zGbdV+55HHtHbMoCAy6RHHvJpCZY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -61,51 +61,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.3aikapbsdk.css",
-      "AssetFile": "C:\\Users\\sagar\\Portfolio\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10878"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"i5cq3Qw3FL8MZOvsE/WAboQVSAs2s+Jrjbr7o3yUd/k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 25 Mar 2026 17:41:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3aikapbsdk"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-i5cq3Qw3FL8MZOvsE/WAboQVSAs2s+Jrjbr7o3yUd/k="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\sagar\\Portfolio\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -116,7 +71,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10878"
+          "Value": "11170"
         },
         {
           "Name": "Content-Type",
@@ -124,11 +79,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i5cq3Qw3FL8MZOvsE/WAboQVSAs2s+Jrjbr7o3yUd/k=\""
+          "Value": "\"ouXiNM0PgxxYpa/zGbdV+55HHtHbMoCAy6RHHvJpCZY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 25 Mar 2026 17:41:22 GMT"
+          "Value": "Fri, 03 Apr 2026 20:11:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -138,7 +93,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i5cq3Qw3FL8MZOvsE/WAboQVSAs2s+Jrjbr7o3yUd/k="
+          "Value": "sha256-ouXiNM0PgxxYpa/zGbdV+55HHtHbMoCAy6RHHvJpCZY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ep18zqc7z7.css",
+      "AssetFile": "C:\\Users\\sagar\\Portfolio\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ouXiNM0PgxxYpa/zGbdV+55HHtHbMoCAy6RHHvJpCZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Apr 2026 20:11:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ep18zqc7z7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ouXiNM0PgxxYpa/zGbdV+55HHtHbMoCAy6RHHvJpCZY="
         }
       ]
     },

@@ -23,17 +23,20 @@ namespace Portfolio.Services
 
         private static AboutModel GetAbout() => new()
         {
-            Name = "Alex Johnson",
-            Title = "Full-Stack .NET Developer",
-            Summary = "Passionate software engineer with 5+ years of experience building " +
+            Name = "Krupa Sagar",
+            Title = ".NET Developer",
+            Summary = "I have 4+ years of experience building desktop applications using WPF and MVVM"+
+                            "Focused on building scalable, maintainable applications with clean UI and efficient architecture."+
+                            "Currently expanding into ASP.NET Core to build modern web applications.",
+            Shortsummary = "Passionate software engineer with 4+ years of experience building " +
                       "scalable web applications using C#, ASP.NET Core, and modern front-end " +
                       "technologies. I love turning complex problems into elegant solutions.",
             AvatarUrl = "https://ui-avatars.com/api/?name=Alex+Johnson&size=200&background=0d6efd&color=fff",
             ResumeUrl = "/files/resume.pdf",
             Social = new SocialLinks
             {
-                GitHub   = "https://github.com/",
-                LinkedIn = "https://linkedin.com/",
+                GitHub   = "https://github.com/krupa-sagar",
+                LinkedIn = "https://linkedin.com/in/krupa-sagar-0105a21b3",
                 Twitter  = "https://twitter.com/"
             }
         };
@@ -136,9 +139,9 @@ namespace Portfolio.Services
 
         private static ContactModel GetContact() => new()
         {
-            Email    = "alex@example.com",
-            Phone    = "+1 (555) 123-4567",
-            Location = "San Francisco, CA"
+            Email    = "sagaras1063@gmail.com",
+            Phone    = "+91 8217660778",
+            Location = "Bengaluru, KA",
         };
     }
 }

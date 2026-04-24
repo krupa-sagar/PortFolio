@@ -35,3 +35,14 @@ C:\Users\sagar\Portfolio\obj\Debug\net8.0\refint\Portfolio.dll
 C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.pdb
 C:\Users\sagar\Portfolio\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
 C:\Users\sagar\Portfolio\obj\Debug\net8.0\ref\Portfolio.dll
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.staticwebassets.runtime.json
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.staticwebassets.endpoints.json
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.exe
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.deps.json
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.runtimeconfig.json
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.dll
+C:\Users\sagar\Portfolio\artifacts\verify-build\Portfolio.pdb
+C:\Users\sagar\Portfolio\bin\Debug\net8.0\artifacts\verify-build\Portfolio.deps.json
+C:\Users\sagar\Portfolio\bin\Debug\net8.0\artifacts\verify-build\Portfolio.runtimeconfig.json
+C:\Users\sagar\Portfolio\bin\Debug\net8.0\artifacts\verify-build\Portfolio.staticwebassets.endpoints.json
+C:\Users\sagar\Portfolio\bin\Debug\net8.0\artifacts\verify-build\Portfolio.staticwebassets.runtime.json
